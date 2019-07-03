@@ -1,0 +1,4 @@
+#Wed Jul 03 16:41:38 IST 2019
+base.0=/Users/B0211591/AndroidStudioProjects/Testcen/app/build/intermediates/dex/debug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
