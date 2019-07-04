@@ -1,0 +1,4 @@
+[submodule "libproject"]
+	path = libproject
+	url = https://github.com/thatsankur/libproject.git
+	branch = master
