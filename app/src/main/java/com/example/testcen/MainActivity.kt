@@ -6,6 +6,7 @@ import android.util.Log
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.demolib2.TextProvider
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -20,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         Thread.setDefaultUncaughtExceptionHandler{
                 t,d-> Log.d("Error Log","Thread  " +t+ " throwable "+ d)
         }
-
+        Log.d("",TextProvider().getData())
 
     }
 

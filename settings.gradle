@@ -1,2 +1,3 @@
 rootProject.name='Testcen'
 include ':app'
+include ':libproject:demolib2'
